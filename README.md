@@ -31,13 +31,15 @@ Pour programmer la tondeuse, elle doit lire un fichier au format .txt construit 
 celles du coin inférieur gauche sont supposées être (0,0)
 - La suite du fichier permet de piloter toutes les tondeuses qui ont été déployées. Chaque
 tondeuse a deux lignes la concernant :
-○ La première ligne donne la position initiale de la tondeuse, ainsi que son
-orientation. La position et l'orientation sont fournies sous la forme de 2 chiffres et
-une lettre, séparés par un espace
-○ La seconde ligne est une série d'instructions ordonnant à la tondeuse d'explorer
-la pelouse. Les instructions sont une suite de caractères sans espaces.
+  - La première ligne donne la position initiale de la tondeuse, ainsi que son
+  orientation. La position et l'orientation sont fournies sous la forme de 2 chiffres et
+  une lettre, séparés par un espace
+  - La seconde ligne est une série d'instructions ordonnant à la tondeuse d'explorer
+  la pelouse. Les instructions sont une suite de caractères sans espaces.
+  
 Chaque tondeuse se déplace de façon séquentielle, ce qui signifie que la seconde tondeuse ne
 bouge que lorsque la première a exécuté intégralement sa série d'instructions.
+
 Lorsqu'une tondeuse achève une série d'instructions, elle affiche sa position et son orientation.
 
 
