@@ -16,18 +16,18 @@ Par exemple, la position de la tondeuse peut être « 0, 0, N », ce qui signifi
 situe dans le coin inférieur gauche de la pelouse, et orientée vers le Nord.
 Pour contrôler la tondeuse, on lui envoie une simple séquence de lettres. Les lettres possibles
 sont « R », « L » et « F ».
-● « R » et « L » font pivoter la tondeuse de 90° à droite ou à gauche respectivement, sans
+- « R » et « L » font pivoter la tondeuse de 90° à droite ou à gauche respectivement, sans
 la déplacer.
-● « F » signifie que l'on avance la tondeuse d'une case dans la direction à laquelle elle fait
+- « F » signifie que l'on avance la tondeuse d'une case dans la direction à laquelle elle fait
 face, et sans modifier son orientation.
-● Si la position après mouvement est en dehors de la pelouse, la tondeuse ne bouge pas,
+- Si la position après mouvement est en dehors de la pelouse, la tondeuse ne bouge pas,
 conserve son orientation et traite la commande suivante.
-● On assume que la case directement au Nord de la position (x, y) a pour coordonnées (x,
+- On assume que la case directement au Nord de la position (x, y) a pour coordonnées (x,
 y+1).
 Pour programmer la tondeuse, elle doit lire un fichier au format .txt construit comme suit :
-● La première ligne correspond aux coordonnées du coin supérieur droit de la pelouse,
+- La première ligne correspond aux coordonnées du coin supérieur droit de la pelouse,
 celles du coin inférieur gauche sont supposées être (0,0)
-● La suite du fichier permet de piloter toutes les tondeuses qui ont été déployées. Chaque
+- La suite du fichier permet de piloter toutes les tondeuses qui ont été déployées. Chaque
 tondeuse a deux lignes la concernant :
 ○ La première ligne donne la position initiale de la tondeuse, ainsi que son
 orientation. La position et l'orientation sont fournies sous la forme de 2 chiffres et
