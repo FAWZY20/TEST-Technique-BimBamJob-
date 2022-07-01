@@ -52,11 +52,11 @@ passant le test ci-après.
 ### TEST :
 
 Le fichier .txt suivant à lire :<br />
-55
-44 S
-LFRRFFLFRFF
-22 N
-FFRLLRFRLF
+55<br />
+44 S<br />
+LFRRFFLFRFF<br />
+22 N<br />
+FFRLLRFRLF<br />
 
 On attend les positions finales suivantes :
 
