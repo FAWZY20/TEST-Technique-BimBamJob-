@@ -58,7 +58,7 @@ LFRRFFLFRFF<br />
 22 N<br />
 FFRLLRFRLF<br />
 
-On attend les positions finales suivantes :
+On attend les positions finales suivantes :<br />
 
-Pour la tondeuse 1 [1, 3] et orientation W
-Pour la tondeuse 2 [2, 5] et orientation N
+Pour la tondeuse 1 [1, 3] et orientation W<br />
+Pour la tondeuse 2 [2, 5] et orientation N<br />
