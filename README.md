@@ -1,12 +1,15 @@
 La société BimBamJob développe une tondeuse à gazon automatique capable de tondre des
 surfaces rectangulaires
 (La tondeuse peut être programmée pour parcourir l'intégralité de la surface.)
+
+
 DESCRIPTION :
+
 La pelouse est divisée en grilles pour simplifier la navigation.
 La position de la tondeuse est représentée par :
-● une combinaison de coordonnées (x,y)
-● d'une lettre indiquant l'orientation selon la notation cardinale anglaise (N,E,W,S).
-● Par exemple, la position de la tondeuse peut être « 0, 0, N », ce qui signifie qu'elle se
+## une combinaison de coordonnées (x,y)
+## d'une lettre indiquant l'orientation selon la notation cardinale anglaise (N,E,W,S).
+## Par exemple, la position de la tondeuse peut être « 0, 0, N », ce qui signifie qu'elle se
 situe dans le coin inférieur gauche de la pelouse, et orientée vers le Nord.
 Pour contrôler la tondeuse, on lui envoie une simple séquence de lettres. Les lettres possibles
 sont « R », « L » et « F ».
