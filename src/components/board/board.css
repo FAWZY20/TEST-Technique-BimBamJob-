@@ -12,3 +12,20 @@
     width: 100px !important;
     height: 100px !important;
 }
+.form{
+    margin-top: 30px;
+}
+.form Form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form Label{
+    color: white;
+}
+
+.form Button{
+    margin: 20px;
+}
