@@ -3,13 +3,13 @@ surfaces rectangulaires
 (La tondeuse peut être programmée pour parcourir l'intégralité de la surface.)
 
 
-DESCRIPTION :
+### DESCRIPTION :
 
 La pelouse est divisée en grilles pour simplifier la navigation.
 La position de la tondeuse est représentée par :
-## une combinaison de coordonnées (x,y)
-## d'une lettre indiquant l'orientation selon la notation cardinale anglaise (N,E,W,S).
-## Par exemple, la position de la tondeuse peut être « 0, 0, N », ce qui signifie qu'elle se
+une combinaison de coordonnées (x,y)
+d'une lettre indiquant l'orientation selon la notation cardinale anglaise (N,E,W,S).
+Par exemple, la position de la tondeuse peut être « 0, 0, N », ce qui signifie qu'elle se
 situe dans le coin inférieur gauche de la pelouse, et orientée vers le Nord.
 Pour contrôler la tondeuse, on lui envoie une simple séquence de lettres. Les lettres possibles
 sont « R », « L » et « F ».
@@ -34,16 +34,24 @@ la pelouse. Les instructions sont une suite de caractères sans espaces.
 Chaque tondeuse se déplace de façon séquentielle, ce qui signifie que la seconde tondeuse ne
 bouge que lorsque la première a exécuté intégralement sa série d'instructions.
 Lorsqu'une tondeuse achève une série d'instructions, elle affiche sa position et son orientation.
-OBJECTIF :
+
+
+###OBJECTIF :
+
 Concevoir et écrire un programme utilisant ReactJs, implémentant la spécification ci-dessus et
 passant le test ci-après.
-TEST :
+
+
+### TEST :
+
 Le fichier .txt suivant à lire :
 55
 44 S
 LFRRFFLFRFF
 22 N
 FFRLLRFRLF
+
 On attend les positions finales suivantes :
+
 Pour la tondeuse 1 [1, 3] et orientation W
 Pour la tondeuse 2 [2, 5] et orientation N
