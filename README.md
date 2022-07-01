@@ -51,7 +51,7 @@ passant le test ci-après.
 
 ### TEST :
 
-Le fichier .txt suivant à lire :
+Le fichier .txt suivant à lire :<br />
 55
 44 S
 LFRRFFLFRFF
